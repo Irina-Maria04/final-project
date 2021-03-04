@@ -16,6 +16,16 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: auto;
   color: ${colors.text};
+  @media (max-width: 1024px) {
+    * {
+      max-width: 700px;
+    }
+  }
+  @media (max-width: 767px) {
+    * {
+      max-width: 300px;
+    }
+  }
 `;
 
 export const Logo = styled.div`
@@ -27,10 +37,10 @@ export const Logo = styled.div`
   }
 `;
 export const InfoMenu = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
 export const MenuIcons = styled.div`
   cursor: pointer;
   padding: 10px;

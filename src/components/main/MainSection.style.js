@@ -17,10 +17,10 @@ export const ProductCard = styled.div`
   margin-bottom: 40px;
   width: calc(100% / 4 - 60px);
   @media (max-width: 1024px) {
-    width: calc(100% / 3 - 45px);
+    width: calc(100% / 2 - 30px);
   }
   @media (max-width: 767px) {
-    width: calc(100% / 2 - 30px);
+    width: calc(100% / 1 - 15px);
   }
 `;
 export const ProductImg = styled.div`

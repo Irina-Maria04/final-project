@@ -18,6 +18,18 @@ export const Container = styled.div`
   background-color: ${colors.offwhite};
   display: flex;
   margin-top: 20px;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    * {
+      max-width: 700px;
+    }
+  }
+  @media (max-width: 767px) {
+    flex-direction: column;
+    * {
+      max-width: 300px;
+    }
+  }
 `;
 export const ContactInfo = styled.div`
   width: 50%;
